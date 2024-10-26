@@ -1,2 +1,6 @@
 # Akashi-19
-Raspberry Pi Pico Breadbord platform. 
+Raspberry Pi Pico Breadboard platform. 
+
+# Details
+
+A board with Raspberry Pi and Breadboard together. 
