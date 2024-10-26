@@ -49,12 +49,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "starved_thermal|102870000|93980000|6b4c170e-c5a7-442c-9170-64876965eae9|1c948010-c49d-40e2-8737-3accdcadf435|B.Cu",
-        "starved_thermal|120650000|119380000|6b4c170e-c5a7-442c-9170-64876965eae9|cddae9ab-2d4b-415b-a004-bbcfa6fdf047|B.Cu",
-        "starved_thermal|134620000|129540000|6b4c170e-c5a7-442c-9170-64876965eae9|70984471-edb8-4f61-92a2-c47d212b41b6|B.Cu",
-        "starved_thermal|134620000|129540000|c61557d2-f421-4494-b5f2-7154cfec4143|70984471-edb8-4f61-92a2-c47d212b41b6|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
