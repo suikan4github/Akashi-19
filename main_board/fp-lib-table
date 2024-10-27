@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "local_footprint")(type "KiCad")(uri "${KIPRJMOD}/footprint")(options "")(descr ""))
+  (lib (name "sparkfun_conn")(type "KiCad")(uri "${KIPRJMOD}/SparkFun-Connector.pretty")(options "")(descr ""))
+)
