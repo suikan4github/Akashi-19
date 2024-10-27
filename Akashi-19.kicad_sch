@@ -2069,7 +2069,7 @@
   (symbol (lib_id "Connector:Conn_01x20_Socket") (at 121.92 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7087575d-6ccc-4cae-a705-14ad13e55023)
-    (property "Reference" "J2" (at 120.65 100.33 0)
+    (property "Reference" "J1" (at 120.65 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x20_Socket" (at 120.65 102.87 0)
@@ -2104,7 +2104,7 @@
     (instances
       (project "Akashi-19"
         (path "/f285b53a-63c1-49f6-9ada-34701b701936"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2138,7 +2138,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 59.69 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 967626cc-6635-4564-a3dc-e333d3b3dc81)
-    (property "Reference" "J1" (at 58.42 87.63 0)
+    (property "Reference" "J3" (at 58.42 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GROVE I2C" (at 58.42 90.17 0)
@@ -2157,7 +2157,7 @@
     (instances
       (project "Akashi-19"
         (path "/f285b53a-63c1-49f6-9ada-34701b701936"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2375,7 +2375,7 @@
   (symbol (lib_id "Connector:Conn_01x20_Socket") (at 182.88 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1f99e2b-e581-40d0-b4c1-09b19da6e364)
-    (property "Reference" "J3" (at 184.15 100.33 0)
+    (property "Reference" "J2" (at 184.15 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x20_Socket" (at 184.15 102.87 0)
@@ -2410,7 +2410,7 @@
     (instances
       (project "Akashi-19"
         (path "/f285b53a-63c1-49f6-9ada-34701b701936"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
