@@ -1535,7 +1535,6 @@
   )
 
   (no_connect (at 66.04 116.84) (uuid 063a3341-ca5c-44ce-adbb-7e72602c55ab))
-  (no_connect (at 152.4 130.81) (uuid 4f777a45-ef76-4104-ae88-39db3d0f11da))
   (no_connect (at 66.04 114.3) (uuid 6910e23b-e67b-4e31-9b62-461b063bd938))
   (no_connect (at 149.86 130.81) (uuid c2143e8a-6ac5-40a0-95c9-9cf0807ade87))
   (no_connect (at 66.04 124.46) (uuid dea0ed6c-6881-4ddd-9151-f0b05eb1982f))
@@ -1724,6 +1723,10 @@
   (wire (pts (xy 133.35 107.95) (xy 133.35 120.65))
     (stroke (width 0) (type default))
     (uuid 8dc20102-9a83-489d-9375-8a41a25c69cc)
+  )
+  (wire (pts (xy 152.4 143.51) (xy 152.4 130.81))
+    (stroke (width 0) (type default))
+    (uuid 8e734ab7-6dcc-4289-bed9-174da96c8821)
   )
   (wire (pts (xy 177.8 113.03) (xy 170.18 113.03))
     (stroke (width 0) (type default))
@@ -1943,6 +1946,31 @@
       (project "Akashi-19"
         (path "/f285b53a-63c1-49f6-9ada-34701b701936"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 152.4 143.51 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 138ff21b-c4bb-4052-8079-8c25e07e367e)
+    (property "Reference" "#PWR09" (at 152.4 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 152.4 148.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 152.4 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 152.4 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8ada44ff-4603-4430-97e0-94173efb47da))
+    (instances
+      (project "Akashi-19"
+        (path "/f285b53a-63c1-49f6-9ada-34701b701936"
+          (reference "#PWR09") (unit 1)
         )
       )
     )
