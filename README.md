@@ -5,13 +5,14 @@ Raspberry Pi Pico Breadboard platform.
 
 A board with Raspberry Pi and Breadboard together. 
 
-Beside to the bread board, the pin functions are printed for ease of use. In addition to the bread board, the followings are available. 
-
+Features :
+- Support two popular bread boards. 
+- Pin labels next to the sockets. 
 - Reset switch. 
 - UART connector ( FTDI pin assign ).
 - QWIIC connector ( 3.5V Vdd ).
 - GROVE connector ( 5.0V Vdd / 3.3V signal )
 
-Two types of popular bread boards are supported. 
+The circuit schematics are available [here](docs/Akashi-19.pdf). 
 
 ![](images/PXL_20241109_075252127.MP.jpg)
