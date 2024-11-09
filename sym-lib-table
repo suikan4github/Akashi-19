@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RpiPico")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/Akashi-19/symbol/RPi_Pico.kicad_sym")(options "")(descr ""))
+  (lib (name "Sparkfun_conn")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/Akashi-19/symbol/SparkFun-Connector.kicad_sym")(options "")(descr ""))
+)
